@@ -1,0 +1,64 @@
+.container {
+    border: 10px solid black;
+    height: 500px;
+    width: 400px;
+    margin: auto;
+    margin-top: 100px;
+
+}
+
+.calc-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calc-title h1 {
+    margin: 0;
+}
+
+.calculator-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.result-bar {
+    border: solid black;
+    height: 50px;
+    margin-top: 20px;
+}
+
+.button {
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 70px;
+    height: 70%;
+    padding: 10px;
+    margin: 15px;
+    text-align: center;
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.operation-bar {
+    border: 2px solid black;
+    display: inline;
+    width: 100px;
+}
+
+
+.operation-buttons .button-op{
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px;
+}
+
